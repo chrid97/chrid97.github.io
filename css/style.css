@@ -1,0 +1,140 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Scope One", serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  font-size: 18px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  /* background-color: #2e3445;
+  box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.2); */
+}
+
+nav li {
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  height: 3rem;
+  padding: 0 1rem;
+  color: #dbe8d4;
+  line-height: 3em;
+}
+
+.banner {
+  /* background-image: url(./img/nasa-Q1p7bh3SHj8-unsplash.jpg); */
+  background-image: url("../img/png-night-sky-night-sky-by-the-retro-specter-1600.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+hgroup {
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.main-nav {
+  display: flex;
+  padding: 0 50px;
+  margin: 0;
+}
+
+.left-side {
+  text-transform: uppercase;
+  margin-right: auto;
+}
+
+.overlay {
+  background: linear-gradient(0deg, #1e285a, rgba(30, 40, 90, 0.47));
+  height: 100vh;
+  position: fixed;
+  width: 100vw;
+}
+
+.thumbnail {
+  padding: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+.caption {
+  text-align: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* typewritter effect */
+.typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
