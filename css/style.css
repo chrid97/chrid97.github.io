@@ -1,9 +1,7 @@
 :root {
-  --brown: #401c04;
-  --black: #292A2D;
+  --black: #111111;
   --white: #f7f6f4;
-  --gray:  #a3a5a8;
-  --red:   #bc4505;
+  --gray:  #292A2D;
 }
 
 html {
@@ -27,7 +25,6 @@ a {
 
 .banner h1 {
   font-size: 4vw;
-  /* text-align: center; */
   width: 70vw;
 }
 
@@ -43,3 +40,63 @@ a {
   height: 100%;
 }
 
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-header {
+  font-size: 60px;
+  letter-spacing: 6px;
+}
+
+.contact-list {
+  list-style-type: none;
+  margin-left: -30px;
+}
+
+.list-item {
+  line-height: 4;
+  color: #aaa;
+}
+
+.contact-text {
+  font: 300 18px 'Lato', sans-serif;
+  letter-spacing: 1.9px;
+  color: #bbb;
+}
+
+.place {
+  margin-left: 62px;
+}
+
+.phone {
+  margin-left: 56px;
+}
+
+.gmail {
+  margin-left: 53px;
+}
+
+.contact-text a:hover {
+  color: #fff;
+}
+
+.social-media-list {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2.3rem;
+  line-height: 65px;
+}
+
+hr {
+  border-color: rgba(255,255,255,.8); ;
+}
+
+.fa-arrow-left {
+  position: absolute;
+  left: 25%;
+  top: 50px;
+  font-size: 35px;
+}
