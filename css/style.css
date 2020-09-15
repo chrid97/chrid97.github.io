@@ -2,6 +2,8 @@
   --black: #111111;
   --white: #f7f6f4;
   --gray:  #292A2D;
+  --gray2: #1F2227;
+  --accent: #E31B6D;  
 }
 
 html {
@@ -94,9 +96,43 @@ hr {
   border-color: rgba(255,255,255,.8); ;
 }
 
-.fa-arrow-left {
-  position: absolute;
-  left: 25%;
-  top: 50px;
-  font-size: 35px;
+/* .fa-arrow-left { */
+/*   position: absolute; */
+/*   left: 25%; */
+/*   top: 50px; */
+/*   font-size: 35px; */
+/* } */
+
+.project {
+  display: flex;
+  margin-top: 40px;
+  width: 1170px;
+
+  border: 1px solid #ccc;
+  border-radius: 15px;
+
+}
+
+.thumbnail {
+  padding-right: 20px;
+}
+
+img {
+  border-radius: 10%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header a {
+  padding-right: 30px;
+  font-size: 30px;
+  margin-top: 28px;
+}
+
+.header h1 {
+  font-size: 50px;
+  margin-bottom: 0;
 }
