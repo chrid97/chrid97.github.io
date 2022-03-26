@@ -1,9 +1,9 @@
 :root {
   --black: #111111;
   --white: #f7f6f4;
-  --gray:  #292A2D;
-  --gray2: #1F2227;
-  --accent: #E31B6D;  
+  --gray: #292a2d;
+  --gray2: #1f2227;
+  --accent: #e31b6d;
 }
 
 html {
@@ -19,6 +19,10 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+a:hover {
+  color: var(--accent);
 }
 
 .banner {
@@ -64,7 +68,7 @@ a {
 }
 
 .contact-text {
-  font: 300 18px 'Lato', sans-serif;
+  font: 300 18px "Lato", sans-serif;
   letter-spacing: 1.9px;
   color: #bbb;
 }
@@ -93,7 +97,7 @@ a {
 }
 
 hr {
-  border-color: rgba(255,255,255,.8); ;
+  border-color: rgba(255, 255, 255, 0.8);
 }
 
 .fa-arrow-left {
